@@ -18,6 +18,8 @@ class CreatePost extends Migration
             $table->string('title');
             $table->text('summary');
             $table->longText('detail');
+            $table->string('img-ava');
+            $table->text('author');
             $table->string('img');
             $table->integer('status');
             $table->dateTime('created_at');
